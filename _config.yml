@@ -1,0 +1,9 @@
+theme: jekyll-theme-cayman
+show_logo: true
+show_title: false
+title: ISIQuiz
+description: Academic Project for Paradigms of Programming and Development (PPS) Course. Application to gamify the pre-exam review of the main topics of a university course.
+show_downloads: false
+github:
+  zip_url: https://github.com/ISIQuiz/PPS-22-isiquiz/releases
+  tar_url: https://github.com/ISIQuiz/PPS-22-isiquiz/releases
