@@ -25,6 +25,8 @@ $border-color: #dce6f0 !default;
 $table-border-color: #e9ebec !default;
 $hr-border-color: #eff0f1 !default;
 
+@import "{{ site.theme }}";
+
 .btn {
    color: #ffff;
    background-color: #8a171aab;
@@ -41,5 +43,3 @@ $hr-border-color: #eff0f1 !default;
   font-style: italic;
   font-weight: normal;
 }
-
-@import "{{ site.theme }}";
