@@ -7,8 +7,8 @@ $medium-breakpoint: 42em !default;
 
 // Headers
 $header-heading-color: #101010 !default;
-$header-bg-color: #ffe296 !default;
-$header-bg-color-secondary: #ff5b5b !default;
+$header-bg-color: #ff5b5b !default;
+$header-bg-color-secondary: #ffe296 !default;
 
 // Text
 $section-headings-color: #8A171A !default;
@@ -24,5 +24,22 @@ $code-text-color: #567482 !default;
 $border-color: #dce6f0 !default;
 $table-border-color: #e9ebec !default;
 $hr-border-color: #eff0f1 !default;
+
+.btn{
+   color: #ffff;
+   background-color: rgb(138, 23, 26, 0.67);
+   border-color: #8a171a;
+
+   &:hover {
+       color: #8a171a;
+       border-color: #8a171a;
+   }
+}
+
+.site-footer-owner {
+  display: block;
+  font-style: italic;
+  font-weight: normal;
+}
 
 @import "{{ site.theme }}";
