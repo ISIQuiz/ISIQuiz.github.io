@@ -5,6 +5,12 @@ L'obiettivo è stato raggiunto con il design di un'applicazione con domande a sc
 Lo scopo di ISIQuiz è quindi quello di gamificare il ripasso pre-esame attraverso uno strumento stimolante
 che permetta agli studenti di tracciare i propri progressi.
 
+### Installazione
+Nel terminale: 
+```bash
+java -jar ISIQuiz.jar
+```
+
 ### Come Giocare
 
 Una volta aperta l'applicazione, viene visualizzato un menu iniziale:
