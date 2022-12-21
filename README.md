@@ -1,14 +1,14 @@
 ## Introduzione
 
-ISIQuiz è un progetto che nasce con l’intento di sviluppare uno strumento che permetta ad 
-uno studente di ripassare i concetti chiave di un corso universitario e verificare le conoscenze acquisite durante lo studio.
-L'obiettivo è stato raggiunto con il design di un'applicazione con domande a scelta multipla riguardanti l'area di Ingegneria e Scienze Informatiche. 
+ISIQuiz è un progetto che nasce con l’intento di sviluppare uno strumento che permetta ad uno studente 
+di ripassare i concetti chiave di un corso universitario e verificare le conoscenze acquisite durante lo studio.
+L'obiettivo è stato raggiunto con il design di un'applicazione con domande a risposta multiplas.
 Lo scopo di ISIQuiz è quindi quello di gamificare il ripasso pre-esame attraverso uno strumento stimolante
 che permetta agli studenti di tracciare i propri progressi.
 
 ## Guida utente
 
-Per l'applicazione è richiesto: jdk >= 11
+Per l'applicazione è richiesto: Java >= 11
 
 Per eseguire l'applicazione, digitare nel terminale:
 ```bash
