@@ -9,7 +9,8 @@ The purpose of ISIQuiz is therefore to gamify the pre-exam review through a stim
 
 To play the app is required: Java >= 11
 
-Tu run the app, double click it, or run in the terminal:
+Tu run the app, double click it, or right-click -> run with -> Java
+If it doesn't open try with the terminal in the folder:
 ```bash
 java -jar ISIQuiz.jar
 ```
