@@ -16,4 +16,4 @@ defaults:
     scope:
       path: "en"
     values:
-      description: Academic Project for Paradigms of Programming and Development (PPS) Course. Application to gamify the pre-exam review of the main topics of a university course.
+      description: Academic Project for Paradigms of Programming and Development (PPS) Course. <br>Application to gamify the pre-exam review of the main topics of a university course.
