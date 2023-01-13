@@ -6,26 +6,26 @@ L'obiettivo è stato raggiunto con il design di un'applicazione con domande a ri
 Lo scopo di ISIQuiz è quindi quello di gamificare il ripasso pre-esame attraverso uno strumento stimolante
 che permetta allo studente di sentirsi più sicuro sulla sua preparazione, di collaborare aggiungendo domande personalizzate e di tracciare i propri progressi.
 
-## Guida utente
+## Come giocare
 
-Per l'applicazione è richiesto: Java versione 8 o successiva
-
-Per eseguire l'applicazione fare doppio clik, o _tasto-destro->apri con->Java_
+Per eseguire l'applicazione sul computer, fare doppio clik, o _tasto-destro->apri con->Java_
 
 Se non viene aperta, digitare nel terminale nella stessa cartella:
 ```bash
 java -jar ISIQuiz.jar
 ```
 
-### Come giocare
-Una volta aperta l'applicazione, viene visualizzato un menu iniziale:
+Per l'applicazione è richiesto: Java versione 8 o successiva
 
-__Gioca__
+### Guida utente
+Una volta aperta l'applicazione, viene visualizzato un menu iniziale con:
+
+__Gioca__:
 Seleziona almeno un corso per poter iniziare una partita con quiz riguardanti i corsi indicati.
 Successivamente, scegli la modalità di gioco:
-- _partita standard_: 10 quiz, ciascuno da rispondere in massimo 15 secondi; ogni quiz ha 4 possibili risposte, 1 sola risposta è corretta; scoprirai la correttezza o meno della risposta data dopo ogni quesito
-- _partita blitz_: rispondi a più quiz possibili in 2 minuti (120 secondi); ogni quiz ha 4 possibili risposte, 1 sola risposta è corretta; scoprirai la correttezza o meno delle risposte date solo al termine della partita
-- _partita personalizzata_: scegli il numero di quiz a cui rispondere e il tempo massimo (in secondi) in cui puoi rispondere a ciascuno; ogni quiz ha 4 possibili risposte, 1 sola risposta è corretta
+- _partita standard_: 10 quiz, ciascuno da rispondere in massimo 15 secondi; ogni quiz ha 4 possibili risposte, 1 sola risposta è corretta; scoprirai la risposta corretta dopo ogni quesito
+- _partita blitz_: rispondi a più quiz possibili in 2 minuti (120 secondi); ogni quiz ha 4 possibili risposte, 1 sola risposta è corretta; scoprirai le risposte corrette solo al termine della partita
+- _partita personalizzata_: scegli il numero di quiz e il tempo massimo (in secondi) per rispondere a ciascuno; ogni quiz ha 4 possibili risposte, 1 sola risposta è corretta
 
 Al termine di una partita c'è il riepilogo con: 
 - il numero totale di domande risposte correttamente
@@ -35,7 +35,7 @@ Al termine di una partita c'è il riepilogo con:
   - risposta data
   - risposta corretta, se quella data è errata o mancante
 
-__Statistiche__
+__Statistiche__:
 Visualizza le statistiche riguardanti ai tuoi ripassi:
 - relative ad un corso selezionato
 - relative ad un quiz selezionato tra quelli del corso indicato
@@ -48,16 +48,16 @@ Per ciascuna tipologia di statistica ci sono:
 - precisione (%)
 - tempo medio di risposta (sec)
 
-__Impostazioni__
+__Impostazioni__:
 Per poter apportare modifiche nelle impostazioni generali:
-- Importa quiz: importa un file JSON dal file system contenente nuovi corsi e quiz
-- Esporta quiz: esporta il file JSON contenente tutti i corsi con i relativi quiz
+- Importa quiz: importa un file (formato JSON) contenente nuovi corsi e quiz
+- Esporta quiz: esporta il file (formato JSON) contenente tutti i corsi con i relativi quiz
 - Aggiungi corso: inserisci un nuovo corso
 - Aggiungi quiz: inserisci nuovi quiz ad un determinato corso, così da poterti esercitare su più argomenti o domande personalizzate
 - Modifica corso: cambia le informazioni di un corso
 - Modifica quiz: cambia il quiz di un corso
 
-__Esci__
+__Esci__:
 Per uscire dall'applicazione
 
 ## Team
