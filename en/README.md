@@ -2,9 +2,9 @@
 
 ISIQuiz is a project that was developed with the intention of helping a student to review the key concepts of a university course, 
 verifying the completeness of the knowledge acquired during the study.
-The objective was achieved with the design of an fun-to-use application with multiple choice questions and feedbacks.
+The objective was achieved with the design of a fun-to-use application with multiple-choice questions and feedback.
 The purpose of ISIQuiz is therefore to gamify the pre-exam review through a stimulating tool that enables students 
-to feel more confident on their preparation, to collaborate adding their questions, and to track their progress.
+to feel more confident in their preparation, to collaborate by adding their questions, and to track their progress.
 
 ## User Guide
 
@@ -62,7 +62,7 @@ To exit the application
 
 ## Team
 
-The Team Mebers in the development of this project are:
+The Team Members in the development of this project are:
 - Daniele Gambaletta
 - Igor Lirussi
 - Riccardo Omiccioli
