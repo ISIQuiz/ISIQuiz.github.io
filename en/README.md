@@ -8,7 +8,7 @@ to feel more confident in their preparation, to collaborate by adding their ques
 
 ## User Guide
 
-To play the app is required: Java >= 8
+To play the app is required: Java version 8 or more
 
 Tu run the app, double click it, or _right-click -> run with -> Java_
 
@@ -27,7 +27,7 @@ Next, choose the game mode:
 - _blitz match_: answer as many quizzes as possible in 2 minutes (120 seconds); each quiz has 4 possible answers, only 1 answer is correct; you will discover the correct of the answers given only at the end of the game
 - _custom game_: choose the number of quizzes to answer and the maximum time (in seconds) you can answer each one; each quiz has 4 possible answers, only 1 answer is correct
 
-At the end of a game there is a summary with:
+At the end of a game, there is a summary with:
 - the total number of correct answers
 - the total number of points earned
 - for each quiz in the game:
