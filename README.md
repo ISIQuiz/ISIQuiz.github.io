@@ -1,16 +1,17 @@
 ## Introduzione
 
-ISIQuiz è un progetto che nasce con l’intento di sviluppare uno strumento che permetta ad uno studente 
-di ripassare i concetti chiave di un corso universitario e verificare le conoscenze acquisite durante lo studio.
-L'obiettivo è stato raggiunto con il design di un'applicazione con domande a risposta multiplas.
+ISIQuiz è un progetto che nasce con l’intento di aiutare uno studente a ripassare i concetti chiave di un corso universitario,
+verificare la completezza delle conoscenze acquisite durante lo studio.
+L'obiettivo è stato raggiunto con il design di un'applicazione con domande a risposta multipla e feedback.
 Lo scopo di ISIQuiz è quindi quello di gamificare il ripasso pre-esame attraverso uno strumento stimolante
-che permetta agli studenti di tracciare i propri progressi.
+che permetta allo studente di sentirsi più sicuro sulla sua preparazione, di collaborare aggiungendo domande personalizzate e di tracciare i propri progressi.
 
 ## Guida utente
 
-Per l'applicazione è richiesto: Java >= 11
+Per l'applicazione è richiesto: Java >= 8
 
-Per eseguire l'applicazione, digitare nel terminale:
+Per eseguire l'applicazione fare doppio clik, o _tasto-destro->apri con->Java_
+Se non viene aperta, digitare nel terminale nella stessa cartella:
 ```bash
 java -jar ISIQuiz.jar
 ```
@@ -21,9 +22,9 @@ Una volta aperta l'applicazione, viene visualizzato un menu iniziale:
 __Gioca__
 Seleziona almeno un corso per poter iniziare una partita con quiz riguardanti i corsi indicati.
 Successivamente, scegli la modalità di gioco:
-- partita standard: 10 quiz, ciascuno da rispondere in massimo 15 secondi; ogni quiz ha 4 possibili risposte, 1 sola risposta è corretta; scoprirai la correttezza o meno della risposta data dopo ogni quesito
-- partita blitz: rispondi a più quiz possibili in 2 minuti (120 secondi); ogni quiz ha 4 possibili risposte, 1 sola risposta è corretta; scoprirai la correttezza o meno delle risposte date solo al termine della partita
-- partita personalizzata: scegli il numero di quiz a cui rispondere e il tempo massimo (in secondi) in cui puoi rispondere a ciascuno; ogni quiz ha 4 possibili risposte, 1 sola risposta è corretta
+- _partita standard_: 10 quiz, ciascuno da rispondere in massimo 15 secondi; ogni quiz ha 4 possibili risposte, 1 sola risposta è corretta; scoprirai la correttezza o meno della risposta data dopo ogni quesito
+- _partita blitz_: rispondi a più quiz possibili in 2 minuti (120 secondi); ogni quiz ha 4 possibili risposte, 1 sola risposta è corretta; scoprirai la correttezza o meno delle risposte date solo al termine della partita
+- _partita personalizzata_: scegli il numero di quiz a cui rispondere e il tempo massimo (in secondi) in cui puoi rispondere a ciascuno; ogni quiz ha 4 possibili risposte, 1 sola risposta è corretta
 
 Al termine di una partita c'è il riepilogo con: 
 - il numero totale di domande risposte correttamente
@@ -31,7 +32,7 @@ Al termine di una partita c'è il riepilogo con:
 - per ogni quiz nel gioco:
   - corso in cui è inserito
   - risposta data
-  - risposta corretta, se quella data è errata
+  - risposta corretta, se quella data è errata o mancante
 
 __Statistiche__
 Visualizza le statistiche riguardanti ai tuoi ripassi:
@@ -48,11 +49,12 @@ Per ciascuna tipologia di statistica ci sono:
 
 __Impostazioni__
 Per poter apportare modifiche nelle impostazioni generali:
-- Importa quiz: importa un file JSON dal file system contenente nuovi quiz
-- Esporta quiz: esporta il file JSON contenente i corsi con i relativi quiz
-- Modifica quiz
+- Importa quiz: importa un file JSON dal file system contenente nuovi corsi e quiz
+- Esporta quiz: esporta il file JSON contenente tutti i corsi con i relativi quiz
 - Aggiungi corso: inserisci un nuovo corso
-- Aggiungi quiz: inserisci nuovi quiz ad un determinato corso, così da poterti esercitare su più argomenti
+- Aggiungi quiz: inserisci nuovi quiz ad un determinato corso, così da poterti esercitare su più argomenti o domande personalizzate
+- Modifica corso: cambia le informazioni di un corso
+- Modifica quiz: cambia il quiz di un corso
 
 __Esci__
 Per uscire dall'applicazione
