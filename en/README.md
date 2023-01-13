@@ -10,7 +10,7 @@ to feel more confident in their preparation, to collaborate by adding their ques
 
 To play the app is required: Java version 8 or more
 
-Tu run the app, double click it, or _right-click -> run with -> Java_
+To run the app, double click it, or _right-click -> run with -> Java_
 
 If it doesn't open try with the terminal in the same folder:
 ```bash
