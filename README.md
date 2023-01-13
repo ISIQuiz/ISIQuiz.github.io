@@ -8,9 +8,10 @@ che permetta allo studente di sentirsi più sicuro sulla sua preparazione, di co
 
 ## Guida utente
 
-Per l'applicazione è richiesto: Java >= 8
+Per l'applicazione è richiesto: Java versione 8 o successiva
 
 Per eseguire l'applicazione fare doppio clik, o _tasto-destro->apri con->Java_
+
 Se non viene aperta, digitare nel terminale nella stessa cartella:
 ```bash
 java -jar ISIQuiz.jar
