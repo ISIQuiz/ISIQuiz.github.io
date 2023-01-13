@@ -11,7 +11,7 @@ defaults:
     scope:
       path: ""
     values:
-      description: Progetto accademico per il corso Paradigmi di Programmazione e Sviluppo (PPS). Applicazione per gamificare il ripasso pre-esame degli argomenti universitari.
+      description: Progetto accademico per il corso Paradigmi di Programmazione e Sviluppo (PPS). <br>Applicazione per gamificare il ripasso pre-esame degli argomenti universitari.
   -
     scope:
       path: "en"
