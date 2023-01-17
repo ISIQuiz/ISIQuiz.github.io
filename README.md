@@ -1,6 +1,6 @@
 ## Introduzione
 
-ISIQuiz è un progetto che nasce con l’intento di aiutare uno studente a ripassare i concetti chiave di un corso universitario,
+ISIQuiz è un progetto che nasce con l’intento di aiutare uno studente a ripassare i concetti chiave di un corso universitario e
 verificare la completezza delle conoscenze acquisite durante lo studio.
 L'obiettivo è stato raggiunto con il design di un'applicazione con domande a risposta multipla e feedback.
 Lo scopo di ISIQuiz è quindi quello di gamificare il ripasso pre-esame attraverso uno strumento stimolante
