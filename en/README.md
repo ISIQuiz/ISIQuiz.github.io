@@ -24,7 +24,7 @@ __Play__:
 Select at least one course to be able to start a game with quizzes regarding the indicated courses.
 Next, choose the game mode:
 - _standard game_: 10 quizzes, each to be answered in a maximum of 15 seconds; each quiz has 4 possible answers, only 1 answer is correct; you will discover the correct answer after each question
-- _blitz match_: answer as many quizzes as possible in 2 minutes (120 seconds); each quiz has 4 possible answers, only 1 answer is correct; you will discover the correct answers only at the end of the game
+- _time attack game_: answer as many quizzes as possible in 2 minutes (120 seconds); each quiz has 4 possible answers, only 1 answer is correct; you will discover the correct answers only at the end of the game
 - _custom game_: choose the number of quizzes and the maximum time (in seconds) to answer each one; each quiz has 4 possible answers, only 1 answer is correct
 
 At the end of a game, there is a summary with:
